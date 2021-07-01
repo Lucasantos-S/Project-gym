@@ -10,30 +10,49 @@
     <title>Fit</title>
 </head>
 <body>
-    <header>
+    <header id="header">
+        <nav class="containe">
+            <a id="logo" href="#">LOGO</a>
+            <div id="menu">
+                <ul class= menu>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Academia</a></li>
+                    <li><a href="#">Planos</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </div>
+        </nav>
         <section>
-            <div class="container">
+            
+            <div id="container-wrapper ">
 
-                <div class="slide">
-                    <div class="slides">
-                        <img src="img/alora-griffiths-ltq_MruDgkc-unsplash.jpg" alt="foto academia">
-                    </div>
-
-                    <div class="slides">
-                        <img src="img/luis-reyes-mTorQ9gFfOg-unsplash.jpg" alt="foto academia">
-                    </div>
-                        
-                    <div class="slides">
-                        <img src="img/sven-mieke-MsCgmHuirDo-unsplash.jpg" alt="foto academia">    
-                    </div>
+                <div class="slide swiper-container mySwiper ">
+                    <div class="swiper-wrapper">
+                   
+                        <div class="slides swiper-slide">
+                            <img src="img/alora-griffiths-ltq_MruDgkc-unsplash.jpg" alt="foto academia">
+                        </div>
+    
+                        <div class="slides swiper-slide">
+                            <img src="img/luis-reyes-mTorQ9gFfOg-unsplash.jpg" alt="foto academia">
+                        </div>
+                            
+                        <div class="slides swiper-slide">
+                            <img src="img/sven-mieke-MsCgmHuirDo-unsplash.jpg" alt="foto academia">    
+                        </div>
+                     </div>
+                     <div class="swiper-pagination"></div>
+                     <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-
             </div>
         </section>
     </header>
     
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
 </body>
 
 
