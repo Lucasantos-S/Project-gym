@@ -19,8 +19,17 @@ const swiper = new Swiper('.swiper-container', {
         prevEl: ".swiper-button-prev",
       },
 
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
+
+     
+
 
   });
+
+  
 
 
   const btnMobile = document.getElementById('btn-mobile')
